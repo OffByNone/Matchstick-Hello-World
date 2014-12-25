@@ -2,7 +2,7 @@
 (function() {
     var appid = "~HelloWorld"; //Unique id of your application, must start with a ~
     var matchstickIPAddress = "192.168.1.14"; //IP address of the matchstick
-    var receiverAppUrl = "http://192.168.1.182:8080/HelloWorld/Receiver.html"; //Url of the page to load on the receiver
+    var receiverAppUrl = "//offbynone.github.io/matchstick-hello-world/Receiver.html"; //Url of the page to load on the receiver
     var senderDaemon = new SenderDaemon(matchstickIPAddress, appid); //comes from the sender api, is the object which will be used to communicate with the matchstick
 
     document.getElementById("launch").onclick  = function(){
